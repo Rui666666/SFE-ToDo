@@ -64,7 +64,7 @@ while i <= m
     w2            = w1./abs(w1);
     w2(w2 == - 1) = 0;           %replace -1 with 0
     for j = 1 : length(w2)     
-        wnan(j) = isnan(w2(j)); %replace NaN with 0
+        wnan(j) = isnan(w2(j));  %replace NaN with 0
         if wnan(j) == 1
             w2(j) = 0;
         end
