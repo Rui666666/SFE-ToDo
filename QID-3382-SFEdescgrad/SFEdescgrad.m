@@ -59,13 +59,13 @@ while (e <= epoch)
     m       = size(x, 1);
     i       = 1;
     while i <= m                               %calculates for each weight
-        inp     = (sum(w.*[x(i, :);]) - bias); %the error function Q(w)
+        inp     = (sum(w.*[x(i, :); ]) - bias); %the error function Q(w)
         activ   = 1./[1 + exp(-p*inp)];        %activation function
         deriv   = activ*(1 - activ);           %derivative of activation function
         erro    = (y(i) - activ);                
         sqerr   = erro.^2;                     %squared error
         sumerro = sumerro + sqerr;        
-        grad    = 2.*erro.*deriv.*[x(i, :);];  %gradient
+        grad    = 2.*erro.*deriv.*[x(i, :); ];  %gradient
         sumgrad = sumgrad + grad ;             %sum up gradients
         i       = i + 1;
     end
