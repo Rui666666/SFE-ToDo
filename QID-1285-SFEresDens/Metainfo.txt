@@ -2,7 +2,7 @@ Name of QuantLet: SFEresDens
 
 Published in: Statistics of Financial Markets
 
-Description: 'plots the Kernel density estimator of the residuals and 
+Description: 'Plots the Kernel density estimator of the residuals and 
 	      of the normal density for the log-returns of the Deutsche Telekom 
               and Volkswagen from  10.05.2004 to 07.05.2014,'
 
