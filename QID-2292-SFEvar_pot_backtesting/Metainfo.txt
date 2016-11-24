@@ -2,8 +2,10 @@ Name of QuantLet : SFEvar_pot_backtesting
 
 Published in : Statistics of Financial Markets
 
-Description : 'Provides backtesting results for the Value-at-Risk (VaR) computed with Peaks Over 
-               Treshold model with generalized Pareto distribution.'
+Description : 'Plots the Value-at-Risk estimation at 0.05 level for the portfolio composed 
+               by Bayer, BMW, siemens and Volkswagen. The Value at Risk is computed by means
+               of the Peaks Over Treshold model with generalized Pareto distribution using a 
+               moving window of size 250.'
 
 Keywords : 'VaR, backtesting, block-maxima, POT, extreme-value, pareto, portfolio, estimation,
 financial, forecast, exceedance, risk, data visualization, graphical representation, plot,
@@ -26,4 +28,4 @@ companies Bayer, BMW, Siemens and Volkswagen.'
 
 Output: 
 - p: exceedances ratio
-- Plot for the Value-at-Risk estimation at 0.05 level of a portfolio composed by Bayer, BMW, siemens and Volkswagen.
+
