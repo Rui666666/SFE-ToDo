@@ -14,6 +14,8 @@ Author: Ostap Okhrin, Piedad Castro
 
 Submitted: Fri, June 24 2016 by Piedad Castro
 
+Datafiles: 2004-2014_dax_ftse.csv
+
 Input: 'The datafile contains daily price data from 07.05.2004 to 07.05.2014 for 
 selected companies which are part of DAX30 and FTSE100 as well as the 
 corresponding index data. This code makes use of the daily prices for the 
