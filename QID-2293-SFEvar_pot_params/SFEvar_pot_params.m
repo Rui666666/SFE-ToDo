@@ -30,34 +30,10 @@ for i=1:(Obs-h)
     [var(i),ksi(i),beta(i),u(i)] = var_pot(y,h,p,q);
 end
 
-%% number of exceedances for Value at Risk, p
-v = -var;
-L = x;
-
-% preallocation
-outlier   = NaN(1,Obs-h);
-exceedVaR = outlier;
-
-for j=1:Obs-h
-    exceedVaR(j) = (L(j+h)<v(j));
-    if exceedVaR(j)>0 
-        outlier(j) = L(j+h);
-    end;
-end;
-
-p       = sum(exceedVaR)/(Obs-h);
-K       = find(isfinite(outlier));
-outlier = outlier(K);
-
-date_outlier = Data.Date(h+2:end);
-date_outlier = date_outlier(K);
-
 %% plot
-plot(Data.Date(h+2:end),L(h+1:end), '.')
+plot(Data.Date(h+2:end),beta)
 hold on
-plot(Data.Date(h+2:end), v,'Color','red','LineWidth',2)
-plot(date_outlier,outlier,'.','Color','m')
-yplus   = K.*0+min(L(h+1:end))-2;
-plot(date_outlier,yplus,'+','Color',[0,0.25098,0])
-legend('Profit/Loss','VaR','Exceedances', 'Location', 'northwest')
-title('Peaks Over Threshold Model','FontSize',16,'FontWeight','Bold')
+plot(Data.Date(h+2:end),ksi,'Color','red')
+plot(Data.Date(h+2:end),u,'Color','m')
+legend('Scale Parameter','Shape Parameter','Threshold','FontSize',16,'FontWeight','Bold','Location','NorthWest')
+title('Parameters in Peaks Over Threshold Model','FontSize',16,'FontWeight','Bold')
