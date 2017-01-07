@@ -1,5 +1,7 @@
 |Q-Quali |Q folders                             |Q Names                 |Descriptions stats           |Keywords stats             |Found SW    |Meta Info data fields          |Q Code    |Missing Style Guide fields |
 |:-------|:-------------------------------------|:-----------------------|:----------------------------|:--------------------------|:-----------|:------------------------------|:---------|:--------------------------|
+|A       |blsprice                              |blsprice                |19 word(s), 95 Character(s)  |5: 5 (standard), 0 (new)   |matlab      |q, p, a, d, k, i, o, s, sa     |ok        |                           |
+|B       |hillgp1                               |hillgp1                 |6 word(s), 27 Character(s)   |2: 2 (standard), 0 (new)   |matlab      |q, p, a, d, k, i, o, s, sa     |ok        |                           |
 |N       |QID-1256-SFENormalApprox2             |No metainfo found!      |NA                           |0: 0 (standard), 0 (new)   |            |                               |NOT FOUND |                           |
 |A       |QID-1260-SFESumm                      |SFESumm                 |15 word(s), 77 Character(s)  |7: 7 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, df, i, s, sa    |ok        |                           |
 |A       |QID-1285-SFEresDens                   |SFEresDens              |25 word(s), 136 Character(s) |6: 6 (standard), 0 (new)   |r           |q, p, a, d, k, i, s, sa        |ok        |                           |
@@ -7,6 +9,7 @@
 |A       |QID-1387-SFEmaxprocess                |SFEmaxprocess           |20 word(s), 87 Character(s)  |17: 17 (standard), 0 (new) |matlab, r   |q, p, a, d, k, e, i, s         |ok        |                           |
 |C       |QID-2196-SFEclose                     |SFEclose                |15 word(s), 76 Character(s)  |0: 0 (standard), 0 (new)   |matlab, r   |q, p, a, d, df, i, o, s, sa    |ok        |Keywords                   |
 |B       |QID-2280-SFEtailGPareto_pp            |SFEtailGPareto_pp       |19 word(s), 119 Character(s) |2: 2 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, df, i, o, s, sa |ok        |                           |
+|B       |QID-2281-SFEtailGPareto_qq            |SFEtailGPareto_qq       |19 word(s), 119 Character(s) |2: 2 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, df, i, o, s, sa |ok        |                           |
 |D       |QID-2282-block_max                    |YAML error!             |NA                           |0: 0 (standard), 0 (new)   |matlab      |                               |NOT FOUND |                           |
 |D       |QID-2283-var_block_max_backtesting    |YAML error!             |NA                           |0: 0 (standard), 0 (new)   |matlab      |                               |NOT FOUND |                           |
 |D       |QID-2285-SFEvar_block_max_backtesting |YAML error!             |NA                           |0: 0 (standard), 0 (new)   |matlab, r   |                               |NOT FOUND |                           |
@@ -26,10 +29,10 @@
 |A       |QID-3368-SFEcolor                     |SFEcolor                |39 word(s), 160 Character(s) |10: 10 (standard), 0 (new) |matlab, r   |q, p, a, d, k, e, s            |ok        |                           |
 |A       |QID-3382-SFEdescgrad                  |SFEdescgrad             |17 word(s), 103 Character(s) |7: 7 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, e, s, sa        |ok        |                           |
 |A       |QID-3383-SFEerrorsurf                 |SFEerrorsurf            |16 word(s), 83 Character(s)  |8: 8 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, e, s, sa        |ok        |                           |
+|A       |QID-3385-SFEhillquantile              |SFEhillquantile         |11 word(s), 56 Character(s)  |11: 11 (standard), 0 (new) |matlab, r   |q, p, a, d, k, i, o, s, sa     |ok        |                           |
 |N       |QID-3390-SFENormalApprox4             |No metainfo found!      |NA                           |0: 0 (standard), 0 (new)   |            |                               |NOT FOUND |                           |
 |A       |QID-3392-SFEsimCIR                    |SFEsimCIR               |49 word(s), 190 Character(s) |5: 5 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, i, s, sa        |ok        |                           |
 |A       |QID-3396-SFEcapvplot                  |SFEcapvplot             |24 word(s), 131 Character(s) |11: 11 (standard), 0 (new) |matlab, r   |q, p, a, d, k, df, s, sa       |ok        |                           |
-|A       |QID-3398-SFEclose                     |SFEclose                |25 word(s), 136 Character(s) |8: 8 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, df, s, sa       |ok        |                           |
 |A       |QID-3399-SFEdefaproba                 |SFEdefaproba            |29 word(s), 124 Character(s) |8: 8 (standard), 0 (new)   |matlab, r   |q, p, a, d, k, s               |ok        |                           |
 |A       |QID-3403-SFEzomma                     |SFEzomma                |21 word(s), 94 Character(s)  |13: 13 (standard), 0 (new) |matlab, r   |q, p, a, d, k, e, s            |ok        |                           |
 |A       |QID-3425-SFEVaRtimeplot               |SFEVaRtimeplot          |35 word(s), 166 Character(s) |17: 17 (standard), 0 (new) |matlab, r   |q, p, a, d, k, df, o, s, sa    |ok        |                           |
