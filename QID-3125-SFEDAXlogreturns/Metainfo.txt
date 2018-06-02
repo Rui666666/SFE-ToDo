@@ -1,4 +1,4 @@
-Name of QuantLet: SFE_DAXlogreturns
+Name of QuantLet: SFEDAXlogreturns
 
 Published in: Statistics of Financial Markets
 

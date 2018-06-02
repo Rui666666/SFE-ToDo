@@ -13,12 +13,14 @@ Author: Barbara Choros, Awdesch Melzer and Piedad Castro
 
 Submitted: Thu, December 1 2016 by Piedad Castro
 
-Inputs: - x: vector of portfolio
-        - v: vector of VaR estimates from block_max routine
-        - h: integer, observation window (e.g. 250)
+Inputs: 
+- x: vector of portfolio
+- v: vector of VaR estimates from block_max routine
+- h: integer, observation window (e.g. 250)
 
-Outputs: - v: Value-at-Risk
-         - K: dummy vector (outlier == 1)
-         - outlier: vector of outliers
-         - yplus: furthest point in portfolio returns
-         - p: exceedances ratio
+Outputs: 
+- v: Value-at-Risk
+- K: dummy vector (outlier == 1)
+- outlier: vector of outliers
+- yplus: furthest point in portfolio returns
+- p: exceedances ratio

@@ -1,4 +1,4 @@
-Name of QuantLet: SFEmvol2
+Name of QuantLet: SFEmvol02
 
 Published in: Statistics of Financial Markets
 

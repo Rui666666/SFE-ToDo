@@ -26,4 +26,5 @@ selected companies which are part of DAX30 and FTSE100 as well as the
 corresponding index data. This code makes use of the daily prices for the 
 companies Bayer, BMW, Siemens and Volkswagen.'
 
-Output: - p: exceedances ratio
+Output: 
+- p: exceedances ratio
