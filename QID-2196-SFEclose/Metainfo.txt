@@ -2,7 +2,7 @@ Name of QuantLet: SFEclose
 
 Published in: Statistics of Financial Markets
 
-Keywords: ''
+Keywords: 'Closing prices, time series, German stocks, Financial Markets'
 
 Description: SFEclose plots the closing prices of Bayer (black), BMW (red), Siemens (blue) and Volkswagen (green).
 
